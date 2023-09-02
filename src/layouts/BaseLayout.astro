@@ -3,7 +3,7 @@ import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const {pageTitle, headerTitle, styleList} = Astro.props;
+const {pageTitle, headerTitle} = Astro.props;
 ---
 
 <html lang="en">
@@ -13,7 +13,6 @@ const {pageTitle, headerTitle, styleList} = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
-    <link rel="stylesheet" href={styleList}>
   </head>
   <body>
     <Header />
