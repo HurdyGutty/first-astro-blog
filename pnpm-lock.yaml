@@ -15,7 +15,7 @@ dependencies:
     specifier: ^3.0.7
     version: 3.0.7
   preact:
-    specifier: ^10.6.5
+    specifier: ^10.17.1
     version: 10.17.1
 
 packages:
