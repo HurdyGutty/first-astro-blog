@@ -3,6 +3,26 @@ html {
     font-family: sans-serif;
 }
 
+html.dark {
+    background-color: #0d0950;
+    color: #fff;
+}
+
+.dark .nav-links a {
+    color: #fff;
+}
+.dark ul a{
+    color: #fff064;
+    text-decoration: none;
+}
+.dark .skill {
+    color: red;
+}
+.dark .tag a{
+    color: #000;
+    text-decoration: none;
+}
+
 body {
     margin: 0 auto;
     width: 100%;
